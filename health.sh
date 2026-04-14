@@ -1,8 +1,17 @@
 #!/bin/bash
 
-date
+DATE=$(date)
 
-echo "System ealth check"
+hostname=$(hostname)
+
+
+
+echo "System health check"
+
+echo "Date: $DATE"
+
+echo "Hostname: $hostname"
+
 echo "------------------"
 
 
