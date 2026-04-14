@@ -1,5 +1,7 @@
 #!/bin/bash
 
+date
+
 echo "System ealth check"
 echo "------------------"
 
