@@ -67,3 +67,9 @@ top -b -n 1 | head -5
 
 echo "Running processes"
 ps aux | head -5
+
+
+
+
+echo "Health check run at $(date)" >> health.log
+
